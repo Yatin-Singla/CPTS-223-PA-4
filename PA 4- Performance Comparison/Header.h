@@ -10,7 +10,7 @@ typedef struct stats
 {
 	int inputSequence;
 	int result;
-	float timeTaken;
+	double timeTaken;
 } Stats;
 
 void maxSubSum1(int Arr[], int size, Stats * Seq1Stats);
