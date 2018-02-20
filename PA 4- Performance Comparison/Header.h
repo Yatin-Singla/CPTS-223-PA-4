@@ -4,6 +4,8 @@
 #include <fstream>
 #include <ctime>
 
+using namespace std;
+
 typedef struct stats
 {
 	int inputSequence;
