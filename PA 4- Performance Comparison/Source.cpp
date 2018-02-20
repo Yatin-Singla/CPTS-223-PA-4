@@ -2,6 +2,7 @@
 
 void maxSubSum1(int Arr[], int size, Stats * Seq1Stats)
 {
+<<<<<<< HEAD
 	clock_t start = clock();
 	int maxSum = 0;
 
@@ -38,6 +39,8 @@ void maxSubSum1(int Arr[], int size, Stats * Seq1Stats)
 	Seq1Stats->result =  maxSum;
 	Seq1Stats->inputSequence = size;
 	Seq1Stats->timeTaken = (double)(end - start) / CLOCKS_PER_SEC;
+=======
+>>>>>>> master
 
 }
 
